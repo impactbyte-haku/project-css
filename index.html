@@ -9,53 +9,71 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about/index.html">About</a>
-      <a href="blog/index.html">Blog</a>
-      <a href="project/index.html">Project</a>
-    </nav>
+    <div id="container" class="container">
+      <!-- Navigation -->
+      <nav id="navigation" class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about/index.html">About</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="project/index.html">Project</a>
+      </nav>
+      <!-- /Navigation -->
 
-    <header>
-      <h1>M Haidar Hanif</h1>
-      <h4>is watching...</h4>
-    </header>
+      <!-- Header -->
+      <header id="header" class="header">
+        <h1 class="header-name">M Haidar Hanif</h1>
+        <h4 class="header-activity">is watching...</h4>
+      </header>
+      <!-- /Header -->
 
-    <section>
-      <div>
-        <img src="images/avengers.jpg" alt="Avengers" />
-      </div>
-      <div>
-        <iframe
-          width="600"
-          height="333"
-          src="https://youtube.com/embed/TcMBFSGVi1c?controls=0"
-        >
-        </iframe>
-        <h2>Avengers: Endgame</h2>
-        <p>
-          Adrift in space with no food or water, Tony Stark sends a message to
-          Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the
-          remaining Avengers -- Thor, Black Widow, Captain America and Bruce
-          Banner -- must figure out a way to bring back their vanquished allies
-          for an epic showdown with Thanos -- the evil demigod who decimated the
-          planet and the universe.
-        </p>
-      </div>
-    </section>
+      <main id="content" class="content">
+        <section id="poster" class="poster">
+          <img src="images/avengers.jpg" alt="Avengers" />
+        </section>
 
-    <section>
-      <img src="images/social.png" alt="Social" />
-    </section>
+        <section id="details" class="details">
+          <div class="details-video">
+            <iframe
+              width="600"
+              height="333"
+              src="https://youtube.com/embed/TcMBFSGVi1c?controls=0"
+            >
+            </iframe>
+          </div>
 
-    <img src="images/monas.png" alt="Monas" />
+          <div class="details-description">
+            <h2 class="details-description-title">Avengers: Endgame</h2>
+            <p class="details-description-paragraph">
+              Adrift in space with no food or water, Tony Stark sends a message
+              to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile,
+              the remaining Avengers -- Thor, Black Widow, Captain America and
+              Bruce Banner -- must figure out a way to bring back their
+              vanquished allies for an epic showdown with Thanos -- the evil
+              demigod who decimated the planet and the universe.
+            </p>
+          </div>
+        </section>
 
-    <footer>
-      <h2>Copyright © 2019 M Haidar Hanif</h2>
-      <p>Built in Jakarta, Indonesia</p>
-      <p>
-        <a href="https://github.com/mhaidarh/mhaidarhanif.com">Source Code</a>
-      </p>
-    </footer>
+        <section class="socials">
+          <img src="images/social.png" alt="Social" />
+        </section>
+      </main>
+
+      <footer id="footer" class="foote">
+        <img src="images/monas.png" alt="Monas" />
+
+        <section class="footer-credits">
+          <h2 class="footer-credits-copyright">
+            Copyright © 2019 M Haidar Hanif
+          </h2>
+          <p class="footer-credits-location">Built in Jakarta, Indonesia</p>
+          <p class="footer-credits-source-code">
+            <a href="https://github.com/mhaidarh/mhaidarhanif.com"
+              >Source Code</a
+            >
+          </p>
+        </section>
+      </footer>
+    </div>
   </body>
 </html>
