@@ -1,6 +1,10 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-  margin: 0 auto;
-  width: 600px;
+  width: 800px;
 }
 
 h1 {
